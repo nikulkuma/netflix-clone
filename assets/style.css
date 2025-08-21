@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    
+}
+
+.main{
+   background-image: url("bg.jpg");
+   height: 644px;
+ 
+   position: relative;
+   background-position: center;
+   background-size: max(1200px, 100vw);
+   background-repeat: no-repeat;
+}
+
+.main .box{
+height: 644px;
+width: 100%;
+opacity: 0.55;
+position:absolute;
+top: 0;
+background-color: black;
+
+}
+nav{
+   padding: 20px;
+    max-width: 163vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    position: relative;
+    z-index: 10;
+    width: 130px;
+}
+
+span button{
+    position: relative;
+    z-index: 10;
+    padding:5px 10px;
+
+}
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.separation{
+height: 7px;
+background-color: rgb(53, 53, 53);
+}
+
+.btn{
+    padding: 6px 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.265);
+    color: white;
+    background-color: rgba(82, 82, 82, 0.365);
+    
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.main input{
+    padding: 4px 79px 15px 8px;
+   background-color: rgb(23, 23, 23,0.4);
+    border-radius: 4px;
+    border: 1px solid rgb(177, 175, 175, 0.5);
+    color: white;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+.hero-buttons input {
+    font-size: 10px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 455px;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.secImg video {
+    position: absolute;
+    top: 125px;
+    right: 43px;
+    width: 368px;
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 28px;
+    
+}
+
+.faq{
+    background-color: black;
+     padding: 34px;
+    color: white;
+}
+.faq h2{
+    text-align: center;
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    max-width: 40vw;
+    padding: 15px;
+    margin: 20px auto;
+}
+footer{
+    
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .question{
+    padding: 15px ;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(253, 253, 253);
+    padding: 15px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
